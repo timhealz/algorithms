@@ -1,4 +1,4 @@
-package com.timhealz.cs.algorithms.graph.union_find;
+package com.timhealz.cs.algorithms.graph.dynamicconnectivity;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
