@@ -10,6 +10,8 @@ public class QuickUnion extends AbstractUnionFind {
         int i = find(p);
         int j = find(q);
 
+        components.remove(j);
+
         id[j] = i;
     }
 

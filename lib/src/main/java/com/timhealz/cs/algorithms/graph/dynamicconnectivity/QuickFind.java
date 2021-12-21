@@ -10,6 +10,8 @@ public class QuickFind extends AbstractUnionFind {
         int p_id = find(p);
         int q_id = find(q);
 
+        components.remove(q_id);
+
         for(int i = 0; i < id.length; i++) {
             if (id[i] == q_id) {
                 id[i] = p_id; 

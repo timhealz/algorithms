@@ -1,19 +1,26 @@
 package com.timhealz.cs.algorithms.graph.dynamicconnectivity;
 
+import java.util.HashSet;
+import java.util.Arrays;
+import java.util.Set;
+
 public abstract class AbstractUnionFind {
     
-    protected int[] id;
+    protected Integer[] id;
+    Set<Integer> components;
     
     public AbstractUnionFind(int N) {
 
-        id = new int[N];
+        id = new Integer[N];
 
         for(int i = 0; i < id.length; i++) {
             id[i] = i;
-        }   
+        }
+
+        components = new HashSet<Integer>(Arrays.asList(id));
     }
 
-    public int[] getId() {
+    public Integer[] getId() {
         return id;
     }
 
@@ -25,4 +32,7 @@ public abstract class AbstractUnionFind {
         return find(p) == find(q);
     }
 
+    public int count() {
+        return components.size();
+    }
 }
