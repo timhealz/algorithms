@@ -2,9 +2,9 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "gradle-build-algorithms",
+			"label": "maven-build-algorithms",
 			"type": "shell",
-			"command": "./gradlew build -i",
+			"command": "./mvn package",
 			"group": {
 				"kind": "build",
 				"isDefault": true
