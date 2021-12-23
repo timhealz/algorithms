@@ -1,4 +1,4 @@
-package com.timhealz.cs.algorithms;
+package com.timhealz.algorithms;
 
 public class HelloWorld {
 

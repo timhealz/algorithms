@@ -1,4 +1,4 @@
-package com.timhealz.cs.algorithms;
+package com.timhealz.algorithms;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

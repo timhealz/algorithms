@@ -1,5 +1,4 @@
-package com.timhealz.cs.algorithms.graph.dynamicconnectivity;
-
+package com.timhealz.algorithms.graph.unionfind;
 
 public class QuickFindTest extends AbstractUnionFindTest {
 

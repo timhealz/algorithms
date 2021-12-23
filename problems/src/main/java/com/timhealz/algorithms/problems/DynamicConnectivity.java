@@ -1,10 +1,10 @@
-package com.timhealz.cs.algorithms.graph.unionfind;
+package com.timhealz.algorithms.problems;
 
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-import com.timhealz.cs.algorithms.graph.unionfind.QuickFind;
+import com.timhealz.algorithms.graph.unionfind.QuickFind;
 
 public class DynamicConnectivity {
     public static void main(String[] args) throws FileNotFoundException {
